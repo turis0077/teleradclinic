@@ -1,0 +1,4 @@
+# Material interno: no se publica
+*.docx
+public/
+~$*

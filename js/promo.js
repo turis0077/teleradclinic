@@ -1,0 +1,1 @@
+(function(){var S=window.SITE,A=window.AG,p=A.store.get('promo',{on:!!S.promo,text:S.promo||''}),el=document.getElementById('promo');if(el&&p.on&&p.text){el.hidden=false;el.textContent=p.text;document.body.classList.add('has-promo')}})();
